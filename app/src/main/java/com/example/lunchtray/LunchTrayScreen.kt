@@ -23,7 +23,13 @@ import androidx.compose.runtime.getValue
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.lunchtray.ui.OrderViewModel
 
-// TODO: Screen enum
+enum class LunchTrayScreen(){
+    Start,
+    EntreeDishes,
+    SideDishes,
+    AccompDishes,
+    Checkout
+}
 
 // TODO: AppBar
 
